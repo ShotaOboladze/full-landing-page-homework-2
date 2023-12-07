@@ -1,0 +1,35 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 22px;
+}
+button[type="button"]:hover {
+  background: rgba(111, 114, 117, 0.7);
+}
+
+a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+a:hover {
+  color: blue !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+  font-size: 32px;
+}
+p {
+  font-family: "Inter-Regular";
+  font-size: 13px;
+}
